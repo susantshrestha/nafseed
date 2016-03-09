@@ -1,0 +1,47 @@
+body{
+  background: $body_color;
+  padding-top:54px;
+  color:#a39e7d;
+
+}
+
+
+footer .foot-text {
+    font-size: 15px;
+    line-height: 21px;
+    color: #745951;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 34px;
+    padding-bottom: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.line-1{
+    height: 1px;
+    background: #dbd7c2;
+    margin-top: 19px;
+}
+.white-shape{
+    background:url('http://static.livedemo00.template-help.com/wt_43793/images/white_shape.jpg') 0 0px repeat;
+    padding:1px 0px 0 0;
+    
+
+}
+.content .thumbnail{
+  text-align: center;
+  margin-top: 20px;
+  padding: 25px 0 35px 0;
+  background: url("http://static.livedemo00.template-help.com/wt_43793/images/block-1_shape.jpg");
+  border-radius:0;
+    img{
+      width: 140px;
+      height: 110px;
+    }
+    .text-1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    color: #9a9785;
+    line-height: 20px;
+
+}
+}

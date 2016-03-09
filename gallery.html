@@ -1,0 +1,47 @@
+---
+layout: default
+title: gallery
+---
+
+<section class="container-fluid content">
+  <div class="container-fluid">
+    <div class="row">
+      <h3>photo <span class="second">gallery</span></h3>
+      <hr>
+      <!-- <article >
+        <section> -->
+      {% for gal in site.data.gallery %}
+      <div class="col-xs-6 col-md-4">
+        <a href='#'  class="thumbnail"  data-toggle="modal" data-target="#lightbox">
+          <img src='{{gal.img}}' alt="{{gal.metadata}}" >
+        </a>
+        <p class="text-center">{{gal.metadata}}</p>
+      </div>
+      {% endfor %}
+
+    <!-- </section>
+    </article> -->
+    </div>
+
+    <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid brochures">
+    <h3 >brochures&nbsp;<li class="fa fa-file-pdf-o"></li></h3>
+    <hr>
+    <ul >
+      <li><a class="orange" href="/assets/pdf/design1.pdf">PICS bag</a></li>
+      <li><a class="purple" href="/assets/pdf/design2.pdf">NAF Greenhouse</a></li>
+      <li><a class="gold" href="/assets/pdf/design3.pdf">PAPA Pump</a></li>
+      <li><a class="blue" href="/assets/pdf/design4.pdf">NAF Drip Irrigation System</a></li>
+    </ul>
+    </div>
+  </div>
+</section>
