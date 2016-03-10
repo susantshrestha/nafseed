@@ -1,6 +1,6 @@
 ---
 layout: default
-title: product
+title: Product
 ---
 <section class="container-fluid content">
   <div class="container-fluid">
@@ -13,7 +13,7 @@ title: product
           <h3>Categories</h3>
         <hr>
         <ul id="categories">
-          <li><a class="orange active" href="pics.html">PICS bag</a></li>
+          <li><a class="orange {%if page.url == 'pics.html' %}current{% endif }" href="pics.html">PICS bag</a></li>
           <li><a class="purple" href="greenhouse.html">NAF Greenhouse</a></li>
           <li><a class="gold" href="papa.html">PAPA Pump</a></li>
           <li><a class="blue" href="drip.html">NAF Drip Irrigation System</a></li>
